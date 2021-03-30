@@ -1,0 +1,1676 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 144,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system",
+      "$key"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 37,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 10,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 20,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 20,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system",
+      "$key"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "Business Unit ID",
+    "qCardinal": 17,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_businessunits"
+    ]
+  },
+  {
+    "qName": "Business Unit Key",
+    "qCardinal": 4,
+    "qTags": [
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "VGA",
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Business Unit Name",
+    "qCardinal": 17,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_businessunits"
+    ]
+  },
+  {
+    "qName": "Competitor Annual Sales Revenue",
+    "qCardinal": 12,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Brand Equity",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Certification",
+    "qCardinal": 43,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_certification"
+    ]
+  },
+  {
+    "qName": "Competitor Certification Table Line ID",
+    "qCardinal": 260,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_certification"
+    ]
+  },
+  {
+    "qName": "Competitor Comments",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Communication",
+    "qCardinal": 19,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_company_communication"
+    ]
+  },
+  {
+    "qName": "Competitor Communication Table Line ID",
+    "qCardinal": 570,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_company_communication"
+    ]
+  },
+  {
+    "qName": "Competitor Company Profile",
+    "qCardinal": 11,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Customer Country",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "mpk_competitor_Products_Customers"
+    ]
+  },
+  {
+    "qName": "Competitor Customer Name",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "mpk_competitor_Products_Customers"
+    ]
+  },
+  {
+    "qName": "Competitor Customer Product Link Key",
+    "qCardinal": 394,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products",
+      "mpk_competitor_Products_Customers"
+    ]
+  },
+  {
+    "qName": "Competitor Customer Share Percentage",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "mpk_competitor_Products_Customers"
+    ]
+  },
+  {
+    "qName": "Competitor Employees Number",
+    "qCardinal": 15,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Established Year",
+    "qCardinal": 74,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor File",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor HQ Location Coordinates",
+    "qCardinal": 194,
+    "qTags": [
+      "$geopoint",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Headquarter Location",
+    "qCardinal": 47,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Logo",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Manager Table Line Key",
+    "qCardinal": 239,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_manager"
+    ]
+  },
+  {
+    "qName": "Competitor Market Dominance",
+    "qCardinal": 6,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Market Presence",
+    "qCardinal": 336,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_market_presence"
+    ]
+  },
+  {
+    "qName": "Competitor Market Presence Continent",
+    "qCardinal": 8,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_market_presence"
+    ]
+  },
+  {
+    "qName": "Competitor Market Presence Table Line Key",
+    "qCardinal": 2123,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_market_presence"
+    ]
+  },
+  {
+    "qName": "Competitor Market Presence Territory",
+    "qCardinal": 25,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_market_presence"
+    ]
+  },
+  {
+    "qName": "Competitor Marketing Srategy",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_marketing_strategy"
+    ]
+  },
+  {
+    "qName": "Competitor Marketing Strategy Table Line ID",
+    "qCardinal": 252,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_marketing_strategy"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_Products",
+      "VGA"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Certifications",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_certification"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Company Communication",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_company_communication"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Contact Manager",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_manager"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Market Presence",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_market_presence"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Marketing Strategy",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_marketing_strategy"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Mother Other Locations",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_mother_other_location"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - News",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_news"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Other Certifications",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_other_certification"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Other Locations",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_other_location"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Production Lines",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Social Media",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_social"
+    ]
+  },
+  {
+    "qName": "Competitor Master ID - Supplier",
+    "qCardinal": 240,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_competitor_supplier"
+    ]
+  },
+  {
+    "qName": "Competitor Master UID",
+    "qCardinal": 240,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Mother Company Headquarter Location",
+    "qCardinal": 36,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Mother Company Name",
+    "qCardinal": 123,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Mother Company Profile",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Mother Company Website",
+    "qCardinal": 111,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Mother Other Location",
+    "qCardinal": 104,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_mother_other_location"
+    ]
+  },
+  {
+    "qName": "Competitor Mother Other Locations",
+    "qCardinal": 265,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_mother_other_location"
+    ]
+  },
+  {
+    "qName": "Competitor Name",
+    "qCardinal": 209,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor News URL",
+    "qCardinal": 47,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_news"
+    ]
+  },
+  {
+    "qName": "Competitor Other Certifications",
+    "qCardinal": 48,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_other_certification"
+    ]
+  },
+  {
+    "qName": "Competitor Other Certifications Table Line ID",
+    "qCardinal": 72,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_other_certification"
+    ]
+  },
+  {
+    "qName": "Competitor Other Location",
+    "qCardinal": 70,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_other_location"
+    ]
+  },
+  {
+    "qName": "Competitor Problem Solving Response",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Products Line Key",
+    "qCardinal": 394,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Competitor Quality",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Seniority",
+    "qCardinal": 74,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Social Media",
+    "qCardinal": 12,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_social"
+    ]
+  },
+  {
+    "qName": "Competitor Social Media Table Line ID",
+    "qCardinal": 302,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_social"
+    ]
+  },
+  {
+    "qName": "Competitor Social Media URL",
+    "qCardinal": 269,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_social"
+    ]
+  },
+  {
+    "qName": "Competitor Status",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Competitor Website",
+    "qCardinal": 205,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor"
+    ]
+  },
+  {
+    "qName": "Comptetitor New Table Line ID",
+    "qCardinal": 53,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_news"
+    ]
+  },
+  {
+    "qName": "Comptetitor Other Location Table Line ID",
+    "qCardinal": 324,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_other_location"
+    ]
+  },
+  {
+    "qName": "Contact Manager First Name",
+    "qCardinal": 135,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_manager"
+    ]
+  },
+  {
+    "qName": "Contact Manager Full Name",
+    "qCardinal": 143,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_manager"
+    ]
+  },
+  {
+    "qName": "Contact Manager Last Name",
+    "qCardinal": 130,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_manager"
+    ]
+  },
+  {
+    "qName": "Contact Manager LinkedIn",
+    "qCardinal": 30,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_manager"
+    ]
+  },
+  {
+    "qName": "Contact Manager Position",
+    "qCardinal": 35,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_manager"
+    ]
+  },
+  {
+    "qName": "Control Measures",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Date Created",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Date Updated",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Division",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_businessunits"
+    ]
+  },
+  {
+    "qName": "Impact",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Master Calendar Date Num",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$keypart"
+    ],
+    "qSrcTables": [
+      "VGA",
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Mixed Security Key",
+    "qCardinal": 17,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_businessunits"
+    ]
+  },
+  {
+    "qName": "Prodcut Type",
+    "qCardinal": 57,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Prodcution Line ID",
+    "qCardinal": 10,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Product Business Terms",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Color",
+    "qCardinal": 19,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Core ID",
+    "qCardinal": 13,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Currency",
+    "qCardinal": 6,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Embossed",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Incoterms",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Parent Type",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Payment",
+    "qCardinal": 7,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Perforated",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Price",
+    "qCardinal": 55,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Printing Number of Colors",
+    "qCardinal": 10,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Qty Sold",
+    "qCardinal": 74,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Qty Unit",
+    "qCardinal": 6,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Thickness",
+    "qCardinal": 35,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Product Width",
+    "qCardinal": 29,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Production Line Brandline Name",
+    "qCardinal": 9,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Production Line Colors NB",
+    "qCardinal": 7,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Production Line Layers NB",
+    "qCardinal": 6,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Production Line Machines NB",
+    "qCardinal": 20,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Production Line Ouput Name",
+    "qCardinal": 50,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Production Line Ouput Unit",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Production Line Table Line ID",
+    "qCardinal": 262,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Production Line Width",
+    "qCardinal": 26,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_production_line"
+    ]
+  },
+  {
+    "qName": "Risk Category",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Salesman Address",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman City",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman Date Of Birth",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman First Name",
+    "qCardinal": 169,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman Gender",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman ID",
+    "qCardinal": 202,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_competitor",
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman Image",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman Job Title",
+    "qCardinal": 13,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman Name",
+    "qCardinal": 200,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman Phone",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Salesman last Name",
+    "qCardinal": 187,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_salesman"
+    ]
+  },
+  {
+    "qName": "Sector ID",
+    "qCardinal": 32,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "mpk_Sectors",
+      "mpk_competitor_Products"
+    ]
+  },
+  {
+    "qName": "Sector Name",
+    "qCardinal": 15,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_Sectors"
+    ]
+  },
+  {
+    "qName": "Status",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Steep Category",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Steep Status",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Subsequent Risk",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Steep"
+    ]
+  },
+  {
+    "qName": "Supplier Country",
+    "qCardinal": 12,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_supplier"
+    ]
+  },
+  {
+    "qName": "Supplier Name",
+    "qCardinal": 12,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_supplier"
+    ]
+  },
+  {
+    "qName": "Supplier Raw Material",
+    "qCardinal": 15,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_supplier"
+    ]
+  },
+  {
+    "qName": "Supplier Table Line ID",
+    "qCardinal": 190,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "mpk_competitor_supplier"
+    ]
+  },
+  {
+    "qName": "VGA_BrandEquity_Score",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "VGA_Customer_Relationship_Score",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "VGA_Lead_Time_Score",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "VGA_Payment_Facilities_Score",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "VGA_Price_Score",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "VGA_Problem_Solving_Response_Score",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "VGA_Quality_Score",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "VGA_Timely_Delivery_Score",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "brand_equity",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "country",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "customer_relationship",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "id",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "lead_time",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "market_share_percentage",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "payment_facilities",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "price",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "problem_solving_response",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "product_type",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "quality",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  },
+  {
+    "qName": "timely_delivery",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VGA"
+    ]
+  }
+]

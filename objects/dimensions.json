@@ -1,0 +1,28 @@
+[
+  {
+    "qInfo": {
+      "qId": "JHHCp",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "Division",
+        "Business Unit Name",
+        "Competitor Market Presence",
+        "Competitor Name"
+      ],
+      "qFieldLabels": [],
+      "title": "BU-MP-CN",
+      "coloring": {
+        "changeHash": "0.9771124098719277",
+        "colorMapRef": "JHHCp"
+      }
+    },
+    "qMetaDef": {
+      "title": "BU-MP-CN",
+      "description": "",
+      "tags": []
+    }
+  }
+]

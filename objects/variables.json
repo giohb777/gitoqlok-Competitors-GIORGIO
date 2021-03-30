@@ -1,0 +1,47 @@
+[
+  {
+    "qInfo": {
+      "qId": "1cb37803-82de-48f4-9cf1-daf4692e6122",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Selected_Dimension",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "9",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "2191773e-713f-4a5a-b09d-53dcb4613c27",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Total_VGA_Benefits",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "VGA_Quality_Score + \r\nVGA_BrandEquity_Score +\nVGA_Problem_Solving_Response_Score + \nVGA_Timely_Delivery_Score +\nVGA_Lead_Time_Score +\nVGA_Customer_Relationship_Score ",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b5483216-c59e-44fe-afbb-daa36b1ef78c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "v_Total_TCO_Score",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "VGA_Price_Score + VGA_Payment_Facilities_Score ",
+    "tags": []
+  }
+]
